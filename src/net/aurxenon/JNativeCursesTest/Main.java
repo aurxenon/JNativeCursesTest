@@ -23,5 +23,7 @@ public class Main {
         tui.inputObject().inputInit();
         tui.inputObject().enableKeyDelay();
         tui.inputObject().readInput();
+        tui.displayObject().exit();
+        System.out.println("Test finished successfully");
     }
 }
